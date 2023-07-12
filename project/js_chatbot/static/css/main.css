@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: rgba(223, 242, 247, .5);
+  font-family: Arial;
+  height: 100%;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  background-color: #000000;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  padding: 0px 10px;
+  z-index: 10;
+  /* align-items: center; */
+}
+.headerImg {
+  height: 100%;
+  width: auto;
+}
+.headerText {
+  align-self: center;
+  /* font-size: 50px; */
+  color: white;
+  margin-left: 30px;
+}
+.menu {
+  background-color: #ffffff;
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  left: 0px;
+  top: 60px;
+  margin-top: 10px;
+  padding: 10px 0px 0px;
+  text-align: center;
+  z-index: 5;
+}
+.menuButton {
+  position: relative;
+  text-align: center;
+  color: white;
+  /* text-align: center; */
+  /* align-items: center;
+  justify-items: center; */
+}
+.buttonImg {
+  width: 100%;
+  height: 5vh;
+  z-index: 6;
+}
+.buttonText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
+.content {
+  height: 200px;
+  position: absolute;
+  top: 60px;
+  left: 15%;
+  margin-top: 10px;
+  padding: 10px;
+  z-index: 0;
+}
+.home {
+  vertical-align: middle
+}
+.homeImg {
+	width: 1000px;
+	height: auto;
+}
